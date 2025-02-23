@@ -27,7 +27,7 @@ Requirements:
 - Install VScode
 
 ### GNU/Linux 
-- Install Docker
+- Install [Docker](https://github.com/saitzaw/data-engineering/blob/main/docker.md) 
 - Install terraform
   
 
