@@ -4,13 +4,13 @@
 The environments mentioned in this content are not intended for developers who use Mac or Apple-related devices.
 
 Host system requirement 
-- Windows OS / GNU/Linux
-- Check to enable virtulization setting in BIOS/UEFI
+ Windows OS / GNU/Linux
+ Check to enable virtulization setting in BIOS/UEFI
+ 
 ```TEXT
 retstart the computer and enter BIOS/UEFI setting by pressing F2, F10, DEL or ESC at startup 
 ```
-- 
-- for Windows OS -> check virtualization [hyper-v, wsl]
+### for Windows OS -> check virtualization [hyper-v, wsl]
   ```TEXT
   win + R > optionalfeatures > enable Hpyer-V > enable wsl > restart  
   ```
