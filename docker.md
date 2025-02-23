@@ -7,6 +7,7 @@
 - Add docker compose
 
 ## docker command 
+
 | # | command | description | 
 | 1 | docker ps -a | check all docker images | 
 | 2 | docker rm -f <image id> | force remove docker image | 
