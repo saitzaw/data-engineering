@@ -21,14 +21,42 @@ retstart the computer and enter BIOS/UEFI setting by pressing F2, F10, DEL or ES
 | 2 | RAM  |  8 GB              |
 | 3 | S/HDD|  100 GB            |
 
-Requirements: 
+## Requirements for Windows OS 
 - Install WSL in Windows [For GNU/Linux skip this step]
 - Install Docker Desktop [For GNU/Linux siip this step] 
 - Install VScode
+- Install PowerBI desktop or Tableau 
+- Install Excel or Sheet 
+
+### VScode Extension 
+- Apache airflow 
+- dbt tool 
+- Docker 
+- metal [Scala]
+- HarshiCorp Terraform
+- HCP Terraform 
+- Gitlens 
+- Gitlens Inspects
+
+### Project Folder structure 
+
+| # | OS | description |file path | 
+|:-:|:--:|:---:|:---------:|
+| 1 | Windows | project path |%USERPROFILE%\workspace\projectA |
+| 2 | Windows | virtual env path | %USERPROFILE%\workspace\venv | 
+| 3 | Linux   | project path | $HOME/workspace/projectA | 
+| 4 | Lunux   | virtual env path | $HOME/workspace/venv | 
+
+### GNU/Linux python version manager 
+- Install pyenv 
+- Install poetry or pipenv 
 
 ### GNU/Linux 
 - Install [Docker](https://github.com/saitzaw/data-engineering/blob/main/docker.md) 
 - Install terraform
+- Install Git 
+- Install wget and curl 
+- Install VIM 
   
 
 
