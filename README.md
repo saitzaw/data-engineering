@@ -41,7 +41,7 @@ retstart the computer and enter BIOS/UEFI setting by pressing F2, F10, DEL or ES
 ### Project Folder structure 
 
 | # | OS | description |file path | 
-|:-:|:--:|:---:|:---------:|
+|:-:|:--:|:---:|----------:|
 | 1 | Windows | project path |%USERPROFILE%\workspace\projectA |
 | 2 | Windows | virtual env path | %USERPROFILE%\workspace\venv | 
 | 3 | Linux   | project path | $HOME/workspace/projectA | 
