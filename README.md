@@ -49,6 +49,22 @@ retstart the computer and enter BIOS/UEFI setting by pressing F2, F10, DEL or ES
 
 Remark: All the code should run in Docker and integrate with git
 
+## Build own big data system on Linux and docker 
+
+| # | system | description | 
+|:-:|:-------|------------:|
+| 1 | catalog| using mysql/postgres to save the user permission, lineage, meta data | 
+| 2 | mdm | using mysql/postgres to create survivalship rule and golden record | 
+| 3 | UPSERT | using PySpark and Detla table to create UPSERT operation | 
+| 4 | Scheduler | using the Apache Airflow to build the scheduler | 
+| 5 | Integestion | using dlt to build the data ingestion tool | 
+| 6 | transformation | using dbt to trasform the data | 
+| 7 | storage | MINIO for object storage | 
+| 8 | big data management | Hadoop with yarn for Spark and others big data tool | 
+| 9 | Streaming | using the Debezium and Kafka | 
+|10 | version control | using SCD and delta table | 
+
+
 ### GNU/Linux python version manager 
 - Install pyenv 
 - Install poetry or pipenv 
