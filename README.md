@@ -3,9 +3,9 @@
 ***Disclaimer*** 
 The environments mentioned in this content are not intended for developers who use Mac or Apple-related devices.
 
-Host system requirement 
- Windows OS / GNU/Linux
- Check to enable virtulization setting in BIOS/UEFI
+## Host system requirement 
+ - Windows OS / GNU/Linux
+ - Check to enable virtulization setting in BIOS/UEFI
  
 ```TEXT
 retstart the computer and enter BIOS/UEFI setting by pressing F2, F10, DEL or ESC at startup 
@@ -47,16 +47,12 @@ retstart the computer and enter BIOS/UEFI setting by pressing F2, F10, DEL or ES
 | 3 | Linux   | project path | $HOME/workspace/projectA | 
 | 4 | Lunux   | virtual env path | $HOME/workspace/venv | 
 
+Remark: All the code should run in Docker and integrate with git
+
 ### GNU/Linux python version manager 
 - Install pyenv 
 - Install poetry or pipenv 
 
 ### GNU/Linux 
 - Install [Docker](https://github.com/saitzaw/data-engineering/blob/main/docker.md) 
-- Install terraform
-- Install Git 
-- Install wget and curl 
-- Install VIM 
-  
-
-
+- Install [VIM] (https://github.com/saitzaw/data-engineering/blob/main/vim.md)
