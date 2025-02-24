@@ -55,4 +55,4 @@ Remark: All the code should run in Docker and integrate with git
 
 ### GNU/Linux 
 - Install [Docker](https://github.com/saitzaw/data-engineering/blob/main/docker.md) 
-- Install [VIM] (https://github.com/saitzaw/data-engineering/blob/main/vim.md)
+- Install [VIM](https://github.com/saitzaw/data-engineering/blob/main/vim.md)
