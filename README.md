@@ -57,7 +57,7 @@ Remark: All the code should run in Docker and integrate with git
 | 2 | mdm | using mysql/postgres to create survivalship rule and golden record | 
 | 3 | UPSERT | using PySpark and Detla table to create UPSERT operation | 
 | 4 | Scheduler | using the Apache Airflow to build the scheduler | 
-| 5 | Integestion | using dlt to build the data ingestion tool | 
+| 5 | Ingestion | using dlt to build the data ingestion tool | 
 | 6 | transformation | using dbt to trasform the data | 
 | 7 | storage | MINIO for object storage | 
 | 8 | big data management | Hadoop with yarn for Spark and others big data tool | 
