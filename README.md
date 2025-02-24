@@ -65,6 +65,7 @@ Remark: All the code should run in Docker and integrate with git
 |10 | version control | using SCD and delta table | 
 
 
+
 ### GNU/Linux python version manager 
 - Install pyenv 
 - Install poetry or pipenv 
