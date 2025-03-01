@@ -1,19 +1,23 @@
-## Envrinoments preparation 
+## Enviroment preparation 
 
 ***Disclaimer*** 
 The environments mentioned in this content are not intended for developers who use Mac or Apple-related devices.
 
+## Sections 
+  - Host system requirement 
+    - Windows OS [check virtualization enable or not]
+  - Requirement of Windows OS 
+  - Install IDE 
+    - VScode extension 
+  - Project Folder structure / Directory structure 
+  - Build own big data system in GNU/Linux 
+  - GNU/Linux Python version manager 
+  - GNU/Linux 
+    - command 
+    - vim 
+    - bash 
+
 ## Host system requirement 
- - Windows OS / GNU/Linux
- - Check to enable virtulization setting in BIOS/UEFI
- 
-```TEXT
-retstart the computer and enter BIOS/UEFI setting by pressing F2, F10, DEL or ESC at startup 
-```
-### for Windows OS -> check virtualization [hyper-v, wsl]
-  ```TEXT
-  win + R > optionalfeatures > enable Hpyer-V > enable wsl > restart  
-  ```
 
 | # | name | minimum requiremnt | 
 |:-:|:----:|:------------------:|
@@ -21,12 +25,27 @@ retstart the computer and enter BIOS/UEFI setting by pressing F2, F10, DEL or ES
 | 2 | RAM  |  8 GB              |
 | 3 | S/HDD|  100 GB            |
 
+REMARK: 
+ - Windows OS / GNU/Linux
+ - Check to enable virtulization setting in BIOS/UEF both Windows and GNU/Linux 
+ 
+```TEXT
+retstart the computer and enter BIOS/UEFI setting by pressing F2, F10, DEL or ESC at startup 
+```
+### Windows OS -> check virtualization [hyper-v, wsl]
+  ```TEXT
+  win + R > optionalfeatures > enable Hpyer-V > enable wsl > restart  
+  ```
+
 ## Requirements for Windows OS 
 - Install WSL in Windows [For GNU/Linux skip this step]
 - Install Docker Desktop [For GNU/Linux siip this step] 
 - Install VScode
 - Install PowerBI desktop or Tableau 
 - Install Excel or Sheet 
+
+## Install IDE
+  - Install in both Windows or GNU/Linux 
 
 ### VScode Extension 
 - Apache airflow 
@@ -65,10 +84,10 @@ Remark: All the code should run in Docker and integrate with git
 |10 | version control | using SCD and delta table | 
 
 
-
 ### GNU/Linux python version manager 
 - Install pyenv 
 - Install poetry or pipenv 
+
 
 ### GNU/Linux 
 - Install [Docker](https://github.com/saitzaw/data-engineering/blob/main/docker.md) 
